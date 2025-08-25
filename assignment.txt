@@ -1,0 +1,20 @@
+Week 2: Git & GitHub Assignment
+Part of DevOps for Beginners Free Cohort by Pravin Mishra
+If you'd like to learn more, check out the playlist: DevOps for Beginners - Free Playlist
+
+Student Details
+Your Full Name: Modesta Agullah
+Your Group Number: 5
+
+Concepts You've Learned (Git & GitHub)
+Briefly explain the Git & GitHub concepts you've learned so far (like repository basics, status, staging, commits, history, branching, merging, etc.).
+• Git is like a notebook for your code – it keeps track of all changes.
+• git status shows what’s changed and what’s ready to be saved.
+• git add stages changes, like putting papers in a folder before filing.
+• git commit records the changes permanently in Git’s history.
+• git log shows the timeline of changes and who made them.
+• Branches let you experiment without breaking the main code.
+• Merging combines branches, carefully keeping the best parts.
+• Debugging scenario: If an app breaks due to a wrong config, I can check git log to see who changed the file and when.
+
+© 2025 DevOps for Beginners • Pravin Mishra
