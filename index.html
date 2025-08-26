@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,7 +63,7 @@
 
         h2 {
             color: #2c3e5b;
-            margin-bottom: 12px;
+            margin: 20px 0 12px 0;
             font-size: 20px;
             font-weight: 600;
             border-bottom: 2px solid #e0e0e0;
@@ -100,9 +99,7 @@
         }
 
         .detail-item label {
-            display: block;
             font-weight: 500;
-            margin-bottom: 5px;
             color: #2c3e5b;
         }
 
@@ -117,7 +114,7 @@
             padding-left: 20px;
         }
 
-        /* Custom diamond bullets, slightly smaller */
+        /* Custom diamond bullets */
         .response-text li::before, .instructions li::before {
             content: "◆";
             color: #2c3e5b;
@@ -125,7 +122,7 @@
             display: inline-block;
             width: 1em;
             margin-left: -1em;
-            font-size: 15px; /* Reduced from 18px to 15px */
+            font-size: 15px;
         }
 
         .response-text li, .instructions li {
@@ -154,8 +151,14 @@
     <div class="assignment-container">
         <div class="header">
             <h1>Week 2: Git & GitHub Assignment</h1>
-            <p>Part of DevOps for Beginners Free Cohort by Pravin Mishra</p>
-            <p>If you'd like to learn more, check out the playlist: <a href="#">DevOps for Beginners – Free Playlist</a></p>
+            <p>Part of DevOps for Beginners Free Cohort by 
+                <a href="https://www.linkedin.com/in/pravin-mishra-aws-trainer/" target="_blank">Pravin Mishra</a>
+            </p>
+            <p>If you'd like to learn more, check out the playlist: 
+               <a href="https://www.youtube.com/playlist?list=PLVOdqXbCs7bX88JeUZmK4fKTq2hJ5VS89" target="_blank">
+                   DevOps for Beginners – Free Playlist
+               </a>
+            </p>
         </div>
 
         <div class="content">
@@ -163,12 +166,10 @@
             <!-- Student Details -->
             <div class="student-details">
                 <div class="detail-item">
-                    <label>Your Full Name:</label>
-                    <div>Modesta Agullah</div>
+                    <label>Your Full Name: [Modesta Agullah]</label>
                 </div>
                 <div class="detail-item">
-                    <label>Your Group Number:</label>
-                    <div>5</div>
+                    <label>Your Group Number: [5]</label>
                 </div>
             </div>
 
@@ -181,13 +182,13 @@
                     <ul>
                         <li>Git is like a diary for your code; it keeps track of every change.</li>
                         <li>A repository is the notebook itself where your code lives.</li>
-                        <li><strong>git status</strong> shows which files are changed or ready to be saved.</li>
-                        <li><strong>git add</strong> stages files for commit, like selecting pages to file.</li>
-                        <li><strong>git commit</strong> permanently saves changes to history.</li>
-                        <li><strong>git log</strong> lets you see who changed what and when.</li>
+                        <li><code>git status</code> shows which files are changed or ready to be saved.</li>
+                        <li><code>git add</code> stages files for commit, like selecting pages to file.</li>
+                        <li><code>git commit</code> permanently saves changes to history.</li>
+                        <li><code>git log</code> lets you see who changed what and when.</li>
                         <li>Branches allow experimentation without affecting main code.</li>
                         <li>Merging combines branches safely.</li>
-                        <li>Real-world debugging: If an app stops connecting to the database, <strong>git log</strong> helps find recent configuration changes.</li>
+                        <li>Real-world debugging: If an app stops connecting to the database, <code>git log</code> helps find recent configuration changes.</li>
                     </ul>
                 </div>
 
